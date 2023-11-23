@@ -25,15 +25,21 @@ __Question 4:__ Derived the "view" rating for homes costing >= $350,000. Recorde
 __Caching and Performance Analysis__
 
 __Cache Table:__ Cached the temporary table home_sales.
+
 __Check Cache:__ Verified home_sales is cached.
+
 __Cached Query:__ Ran a query using cached data. Filtered view ratings with an average price >= $350,000. Recorded runtime to compare to  uncached runtime.
 
 __Data Partitioning and Further Analysis__
 
 __Partition Data:__ Partitioned the formatted parquet home sales data by the "date_built" field.
+
 __Parquet Temporary Table:__ Created a temporary table for the parquet data.
+
 __Query Performance:__ Ran a query filtering view ratings with an average price >= $350,000 on the parquet data. Recorded runtime to compare to uncached runtime.
 
 __Uncaching and Verification__
+
 __Uncache Table:__ Uncached the home_sales temporary table.
+
 __Verification:__ Verified the uncaching of the home_sales temporary table using PySpark.

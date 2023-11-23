@@ -16,16 +16,16 @@ __Used SparkSQL To Answer The Following Questions__
 
 __Question 1:__ Determined the average price for a four-bedroom house sold each year, rounded to two decimal places.
 
-__Question 2:__ Found the average price of a home for each year it was built with three bedrooms and three bathrooms, rounded to two decimal places.
+__Question 2:__ Found the average price of a home for each year the home was built with three bedrooms and three bathrooms, rounded to two decimal places.
 
-__Question 3:__ Calculated the average price of a home each year with specific criteria (3 bedrooms, 3 bathrooms, 2 floors, >= 2,000 sq. ft.), rounded to two decimal places.
+__Question 3:__ Calculated the average price of a home for each year built with specific criteria (3 bedrooms, 3 bathrooms, 2 floors, >= 2,000 sq. ft.), rounded to two decimal places.
 
-__Question 4:__ Derived the "view" rating for homes costing >= $350,000. Record the query runtime rounded to two decimal places.
+__Question 4:__ Derived the "view" rating for homes costing >= $350,000. Recorded the query runtime and rounded to two decimal places.
 
 __Caching and Performance Analysis__
 
 __Cache Table:__ Cached the temporary table home_sales.
-__Check Cache:__ Verified if home_sales is cached.
+__Check Cache:__ Verified home_sales is cached.
 __Cached Query:__ Ran a query using cached data. Filtered view ratings with an average price >= $350,000. Recorded runtime to compare to  uncached runtime.
 
 __Data Partitioning and Further Analysis__
